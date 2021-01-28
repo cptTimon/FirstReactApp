@@ -1,6 +1,7 @@
 export const settings = {
   columnCreatorText: 'Add new column',
   cardCreatorText: 'Add new card',
+  listCreatorText: 'Add new list',
   creator: {
     buttonOK: 'OK',
     buttonCancel: 'Cancel',
@@ -62,6 +63,58 @@ export const listData = {
         {
           key: 1,
           title: 'Skyrim',
+        },
+      ],
+    },
+  ],
+};
+export const listDataNew = {
+  title: 'Things to discover <sup>soon!</sup>',
+  description: 'Interesting things I want to visit!',
+  image: 'http://uploads.kodilla.com/bootcamp/fer/11.react/space.png',
+  columns: [
+    {
+      key: 0,
+      title: 'America',
+      icon: 'list-alt',
+      cards: [
+        {
+          key: 0,
+          title: 'Grand Canyon',
+        },
+        {
+          key: 1,
+          title: 'New York',
+        },
+      ],
+    },
+    {
+      key: 1,
+      title: 'China',
+      icon: 'list-alt',
+      cards: [
+        {
+          key: 0,
+          title: 'Great China Wall',
+        },
+        {
+          key: 1,
+          title: 'Anhui',
+        },
+      ],
+    },
+    {
+      key: 2,
+      title: 'Australia',
+      icon: 'list-alt',
+      cards: [
+        {
+          key: 0,
+          title: 'Sydney',
+        },
+        {
+          key: 1,
+          title: 'Gold Coast',
         },
       ],
     },

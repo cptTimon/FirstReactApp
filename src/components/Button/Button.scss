@@ -24,4 +24,11 @@
       background: darken($color-warning, 5%);
     }
   }
+
+  &.yellow {
+    background-color: yellow;
+    &:hover {
+      background: darlem(yellow, 10%);
+    }
+  }
 }
