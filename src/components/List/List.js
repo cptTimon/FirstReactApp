@@ -11,8 +11,11 @@ import Container from '../Container/Container';
 const List = ({title, description, columns, image, addColumn}) => (
   <Container>
     <section className={styles.component}>
-      <Hero titleText={title} imageSource={image} />
-      <div className={styles.description} >
+      <Hero 
+        titleText={title}
+        imageSource={image}
+      />
+      <div className={styles.description}>
         {ReactHtmlParser(description)}
       </div>
       <div className={styles.columns}>
@@ -21,7 +24,10 @@ const List = ({title, description, columns, image, addColumn}) => (
         ))}
       </div>
       <div className={styles.creator}>
-        <Creator text={settings.columnCreatorText} action={addColumn} />
+        <Creator
+          text={settings.columnCreatorText}
+          action={addColumn}
+        />
       </div>
     </section>
   </Container>
