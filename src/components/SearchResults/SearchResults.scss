@@ -19,6 +19,7 @@
   text-align: center;
   font-size: ($base-size * 1.5);
   margin: 0 0 ($base-size * 1.5) 0;
+  color: white;
 }
 
 .icon > * {
@@ -27,6 +28,11 @@
   font-size: ($base-size * 2);
   vertical-align: middle;
 }
+
+h3 {
+  color: black;
+}
+
 
 @media (max-width: 767px) {
 
